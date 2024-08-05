@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="main-div" id="main-div">
+        <div class="main-input-area" >
+            
+            <input type="text" id="main-input-area" maxlength="9" minlength="1">
+            <img src="imgs/sun.svg" alt="" id="light" class="light">
+            <img src="imgs/moon-svgrepo-com.svg" alt="" id="lightbtn" class="moon light" >
+        </div>
+        <div class="main-btn-area">
+            
+                <button class="clear gre"   id="Clear">C</button>
+                <button class="delt gre" id="del">DEL</button>
+                <button class="per gre" onclick="percantage()">%</button>
+                <button class="div yell" onclick="division()">/</button>
+                <button class="sev" onclick="sev()">7</button>
+                <button class="eig" onclick="eig()">8</button>
+                <button class="nine" onclick="nine()">9</button>
+                <button class="mul yell" onclick="multiplication()">*</button>
+                <button class="for" onclick="four()">4</button>
+                <button class="fiv" onclick="five()">5</button>
+                <button class="six" onclick="six()">6</button>
+                <button class="min yell" onclick="subtract()">-</button>
+                <button class="one" onclick="one()">1</button>
+                <button class="two" onclick="two()">2</button>
+                <button class="thr" onclick="three()">3</button>
+                <button class="pos yell" onclick="addition()">+</button>
+                <button class="zer" onclick="zero()">0</button>
+                <button class="dot" onclick="dot()">.</button>
+                <button class="equ yell" onclick="equal()">=</button>
+
+        </div>
+    </div>
+    <!-- <p style="color: aliceblue;" id="saved">th</p> -->
+    <script src="script.js"></script>
+</body>
+</html>
